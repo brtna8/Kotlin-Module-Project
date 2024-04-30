@@ -1,3 +1,9 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+object NotesApp {
+    val archives = mutableListOf<Archive>()
+
+
+    @JvmStatic
+    fun main(args: Array<String>) {
+        Archive.archiveMenu()
+    }
 }
